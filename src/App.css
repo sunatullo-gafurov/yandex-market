@@ -1,5 +1,22 @@
 .App {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.item {
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.price {
+  font-weight: 600;
 }
 
 .App-logo {
