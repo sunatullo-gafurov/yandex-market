@@ -31,7 +31,7 @@ export default function App(){
     ]
     return (
         <div className='App'>
-            {items.map(item => <Block {...item}/>)}
+            {items.map(item => <Block key={item.id} {...item}/>)}
         </div>
     )
 }
